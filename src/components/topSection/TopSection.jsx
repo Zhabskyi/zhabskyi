@@ -3,7 +3,9 @@ import useStyles from "./styles";
 
 const TopSection = () => {
   const classes = useStyles();
-  return <div></div>;
+  return <div className={classes.container}>
+
+  </div>;
 };
 
 export default TopSection;
