@@ -1,4 +1,5 @@
 import {createUseStyles} from 'react-jss';
+import Background from '../../static/images/arrow.png';
 
 
 const useStyles = createUseStyles({
@@ -13,7 +14,7 @@ container: {
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'left top',
   '@media (max-width: 768px)': {
-    height: '80vh'
+
   }
 },
 name: {
@@ -26,6 +27,24 @@ title: {
   fontSize: '28px',
   justifyContent: 'center',
   fontFamily: 'Acme, sans-serif'
+},
+icons: {
+  margin: '300px 13% auto auto'
+},
+arrow: {
+  position: 'absolute',
+  left: '100px',
+  top: '67%',
+  width: '160px',
+  height: '160px',
+  backgroundImage: `url(${Background})`,
+  backgroundSize: 'cover',
+  backgroundRepeat: 'no-repeat',
+  backgroundPosition: 'center',
+  '@media (max-width: 768px)': {
+    left: '50px',
+    top: '66%',
+  }
 }
 
 });

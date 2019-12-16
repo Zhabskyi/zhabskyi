@@ -3,7 +3,7 @@ import useStyles from "./styles";
 
 const PortfolioSection = () => {
   const classes = useStyles();
-  return <div className={classes.container}>
+  return <div id="portfolio" className={classes.container}>
 
   </div>;
 };
