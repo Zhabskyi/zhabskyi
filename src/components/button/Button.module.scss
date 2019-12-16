@@ -1,0 +1,87 @@
+@import '../../styles/_mixins.scss';
+
+.btn {
+  background-color: transparent;
+  font-family: 'Source Sans Pro', sans-serif;
+	border: none;
+	color: white;
+	outline: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 10px;
+	margin: 10px;
+	font-weight: 300;
+}
+
+.btn:disabled {
+	color: #ccc;
+	background-color: rgba(31, 219, 131, 0.5);
+	cursor: not-allowed;
+}
+
+.success {
+	width: 120px;
+	height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+	border-radius: 5px 0px 5px;
+	background-color: #abc555;
+}
+
+.successBig {
+	width: 200px;
+	height: 60px;
+	font-size: 18px;
+	border-radius: 5px 0px 5px;
+	background-color: #abc555;
+}
+
+.close {
+	@include mobile {
+		display: inherit;
+		position: absolute;
+		right: 0;
+		top: -10px;
+		transform: translateY(-50%);
+		z-index: 6;
+		&:before {
+			content: '';
+			left: 0;
+			height: 3px;
+			width: 100%;
+			background-color: rgba(21, 72, 76, 0.6);
+			display: block;
+			position: absolute;
+			top: 50%;
+			transform: translateY(-50%) rotate(-45deg);
+		}
+		&:after {
+			content: '';
+			left: 0;
+			height: 3px;
+			width: 100%;
+			background-color: rgba(21, 72, 76, 0.6);
+			display: block;
+			position: absolute;
+			bottom: 50%;
+			transform: translateY(50%) rotate(45deg);
+		}
+	}
+}
+
+.success:hover {
+	box-shadow: 0 2px 4px 0 #abc55571;
+}
+
+.transparent {
+	width: 120px;
+	height: 40px;
+	font-size: 16px;
+	border-radius: 5px;
+	box-shadow: 0 8px 34px 0 rgb(200, 219, 31);
+	background-color: #1fdb84;
+}
+
+.danger {
+	color: #944317;
+}
