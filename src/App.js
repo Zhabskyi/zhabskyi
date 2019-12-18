@@ -6,6 +6,7 @@ import Nav from "./components/nav/Nav";
 import TopSection from './components/topSection/TopSection';
 import PortfolioSection from './components/portfolioSection/PortfolioSection';
 import SkillsSection from './components/skillsSection/SkillsSection';
+import AboutSection from './components/aboutSection/AboutSection';
 import Divider from './components/divider/Divider';
 
 const App = () => {
@@ -18,6 +19,8 @@ const App = () => {
       <PortfolioSection />
         <Divider color={'rgb(212, 204, 119, 0.5)'}/>
       <SkillsSection/>
+        <Divider color={'rgb(212, 204, 119, 0.5)'}/>
+      <AboutSection />
     </div>
   );
 }

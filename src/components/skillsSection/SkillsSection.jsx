@@ -3,7 +3,7 @@ import useStyles from "./styles";
 
 const SkillsSection = () => {
   const classes = useStyles();
-  return <div className={classes.container}>
+  return <div id="skills" className={classes.container}>
 
   </div>;
 };

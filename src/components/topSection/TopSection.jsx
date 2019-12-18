@@ -7,19 +7,13 @@ import SocialIcons from "../socialIcons/SocialIcons";
 const TopSection = () => {
   const classes = useStyles();
   return (
-    <div className={classes.container}>
+    <div id='top' className={classes.container}>
       <h2 className={classes.name}>Oleksandr Zhabskyi</h2>
       <p className={classes.title}>Full Stack Web Developer</p>
       <div className={classes.icons}>
-        <SocialIcons />
+        <SocialIcons direction={'column'} />
       </div>
-      <Link
-        to={"portfolio"}
-        spy={true}
-        smooth={true}
-        offset={0}
-        duration={500}
-      >
+      <Link to={"projects"} spy={true} smooth={true} offset={0} duration={500}>
         <div className={classes.arrow}></div>
       </Link>
     </div>

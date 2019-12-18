@@ -1,5 +1,5 @@
 import {createUseStyles} from 'react-jss';
-import Background from '../../static/images/portfolio.jpg';
+import Background from '../../static/images/portfolio_1.jpg';
 
 
 const useStyles = createUseStyles({

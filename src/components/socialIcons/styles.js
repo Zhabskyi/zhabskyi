@@ -4,8 +4,9 @@ import {createUseStyles} from 'react-jss';
 const useStyles = createUseStyles({
 container: {
   position: 'relative',
-  width: '40px',
-  height: '240px',
+  display: 'inline-block',
+  margin: 'auto',
+  width: props => props.width,
   color: '#2b3310',
   '@media (max-width: 768px)': {
 
@@ -37,6 +38,12 @@ container: {
       }
     }
   }
+},
+list: {
+  display: 'flex',
+  justifyContent: 'space-between',
+  alignItems: 'center',
+  flexDirection: props => props.direction
 }
 
 });

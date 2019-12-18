@@ -10,9 +10,9 @@ import classnames from 'classnames';
 
 
 const links = [
-  { activeClass: 'active', to: 'Projects', offset: 0, duration: 0 },
-  { activeClass: 'active', to: 'Skills', offset: 0, duration: 0 },
-  { activeClass: 'active', to: 'About me', offset: 0, duration: 0 }
+  { activeClass: 'active', to: 'projects', name: 'Projects', offset: 0, duration: 600 },
+  { activeClass: 'active', to: 'skills', name: 'Skills', offset: 0, duration: 800 },
+  { activeClass: 'active', to: 'about', name: 'About me', offset: 0, duration: 1400 }
 ].map(link => {
   link.key = `nav-link-${link.to}`
   return link
@@ -29,17 +29,17 @@ class NavItems extends React.Component {
 	render() {
 		return (
       <ul className={classes.menu}>
-				{links.map(({ key, activeClass, to, offset, duration }) => (
+				{links.map(({ key, activeClass, to, name, offset, duration }) => (
 					<li className={classes.item} key={key}>
 						<div className={classnames(classes.link, this.props.className)}>
-							<Link href="#" activeClass={activeClass}
+							<Link activeClass={activeClass}
 								to={to}
 								spy={true}
 								smooth={true}
 								offset={offset}
 								duration={duration}
 								className={classes.ancor}>
-								<span>{to}</span><span className={classes.divider}>{this.props.symbol}</span>
+								<span className={classes.divider}>{this.props.symbol}</span><span>{name}</span><span className={classes.divider}>{this.props.symbol}</span>
 							</Link>
 						</div>
 					</li>
