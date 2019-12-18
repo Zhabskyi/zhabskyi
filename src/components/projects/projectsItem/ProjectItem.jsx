@@ -3,7 +3,7 @@ import useStyles from "./styles";
 
 
 
-const AboutSection = () => {
+const ProjectItems = () => {
   const classes = useStyles();
   return (
     <div>
@@ -12,4 +12,4 @@ const AboutSection = () => {
   );
 };
 
-export default AboutSection;
+export default ProjectItems;
