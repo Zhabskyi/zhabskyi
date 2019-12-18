@@ -11,6 +11,14 @@ container: {
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
   backgroundPosition: 'center'
+},
+title: {
+  margin: '70px auto',
+  textAlign: 'center'
+},
+svg: {
+  width: '100px',
+  height: 'auto'
 }
 
 });

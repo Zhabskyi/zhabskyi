@@ -4,9 +4,9 @@ import Background from '../../static/images/portfolio_1.jpg';
 
 const useStyles = createUseStyles({
 container: {
+  marginBottom: '100px',
   position: 'relative',
   zIndex: 0,
-  height: '1600px',
   backgroundImage: `url(${Background})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',

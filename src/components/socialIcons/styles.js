@@ -29,9 +29,7 @@ container: {
         overflow: 'hidden',
         transition: 'all 0.2s ease',
         '&:hover': {
-          marginBottom: '29px',
-          width: '46px',
-          height: '46px',
+          color: 'black',
           border: '2px solid #2b331078',
           background: '#abc55581'
         }
