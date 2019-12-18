@@ -13,6 +13,14 @@ container: {
 
   }
 },
+project: {
+  position: 'relative',
+  marginBottom: '20px',
+  overflow: 'hidden'
+},
+project_thumb: {
+  height: '410px'
+}
 
 
 });

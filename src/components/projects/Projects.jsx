@@ -9,7 +9,10 @@ const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.container}>
+      <div className={classes.row}>
 
+        <ProjectItems />
+      </div>
     </div>
   );
 };

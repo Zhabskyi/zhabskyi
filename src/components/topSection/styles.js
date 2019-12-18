@@ -60,7 +60,7 @@ arrow: {
   },
   '@media (min-width: 1600px)': {
     left: '500px',
-    top: '66%',
+    top: '60%',
   }
 }
 
