@@ -30,7 +30,7 @@ class Nav extends React.Component {
           <MenuToggle onClick={this.sideDrawerToggleHandler} />
           <div className={classes.navbar__logo}></div>
           <div className={classes.navbar__list}>
-            <NavItems />
+            <NavItems onClick={this.sideDrawerToggleHandler} />
           </div>
           <div className={classes.navbar__right}>
             <button className={classes.btn}>
