@@ -71,7 +71,7 @@ const useStyles = createUseStyles({
     padding: "20px",
     fontSize: "22px",
     "@media (max-width: 576px)": {
-      fontSize: "18px",
+      fontSize: "16px",
       padding:'10px'
     },
   },
