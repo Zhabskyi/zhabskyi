@@ -6,7 +6,7 @@ const useStyles = createUseStyles({
 container: {
   position: 'relative',
   zIndex: 0,
-  height: '1600px',
+  minheight: '1400px',
   backgroundImage: `url(${Background})`,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
@@ -16,10 +16,15 @@ title: {
   margin: '70px auto',
   textAlign: 'center'
 },
-svg: {
-  width: '100px',
-  height: 'auto'
-}
+text : {
+  font: '18px'
+},
+block: {
+  display: 'flex',
+  flexWrap: 'wrap',
+  justifyContent: 'center'
+},
+
 
 });
 
