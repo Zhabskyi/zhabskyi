@@ -2,8 +2,8 @@ import { createUseStyles } from "react-jss";
 
 const useStyles = createUseStyles({
   container: {
-    maxWidth: '140px',
-    margin: '20px'
+    maxWidth: '200px',
+    margin: '50px'
   },
   img: {
     width: '100%'

@@ -9,7 +9,7 @@ const Projects = () => {
   const classes = useStyles();
   return (
     <div className={classes.container}>
-      <h4 className={classes.title}>Portfolios</h4>
+      <h3 className={classes.title}>Portfolios</h3>
       <div className={classnames("row", classes.row)}>
         {data.map(({ title, description, github, website, picture }) => (
           <ProjectItems

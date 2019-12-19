@@ -33,7 +33,7 @@ const data = {
     webpack,
     rails
   ],
-  cms: [postgresql, giticon, circleCI],
+  cms: [circleCI,giticon, postgresql],
   testing: [mocha, chai, jest, cypress, storybook]
 };
 

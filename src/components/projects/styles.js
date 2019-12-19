@@ -12,7 +12,7 @@ container: {
   }
 },
 title: {
-  margin: '70px auto',
+  margin: '100px auto',
   textAlign: 'center'
 },
 row: {

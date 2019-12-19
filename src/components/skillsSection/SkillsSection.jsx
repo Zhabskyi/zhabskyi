@@ -8,27 +8,27 @@ const SkillsSection = () => {
   const classes = useStyles();
   return (
     <div id='skills' className={classes.container}>
-      <h4 className={classes.title}>Skills</h4>
+      <h3 className={classes.title}>Skills</h3>
       <div className={classnames( classes.block, classes.languages)}>
-        <p>Languages</p>
+        <p className={classes.text}>Languages</p>
         {data.languages.map(picture => (
           <SkillItem picture={picture} />
         ))}
         </div>
         <div className={classnames( classes.block, classes.frameworks)}>
-        <p>Frameworks</p>
+        <p className={classes.text}>Frameworks</p>
         {data.frameworks.map(picture => (
           <SkillItem picture={picture} />
         ))}
         </div>
         <div className={classnames( classes.block, classes.cms)}>
-        <p>CMS & Database</p>
+        <p className={classes.text}>CMS & Database</p>
         {data.cms.map(picture => (
           <SkillItem picture={picture} />
         ))}
         </div>
         <div className={classnames( classes.block, classes.testing)}>
-        <p>Testing</p>
+        <p className={classes.text}>Testing</p>
         {data.testing.map(picture => (
           <SkillItem picture={picture} />
         ))}
