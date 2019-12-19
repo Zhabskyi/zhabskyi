@@ -1,27 +1,27 @@
-import bootstrap from "../../../static/images/bootstrap.svg";
-import chai from "../../../static/images/chai.svg";
-import circleCI from "../../../static/images/circleCI.svg";
-import scc3 from "../../../static/images/scc3.svg";
-import cypress from "../../../static/images/cypress.svg";
-import express from "../../../static/images/express.svg";
-import giticon from "../../../static/images/git-icon.svg";
-import html from "../../../static/images/html-5.svg";
-import javascript from "../../../static/images/javascript.svg";
-import jest from "../../../static/images/jest.svg";
-import jquery from "../../../static/images/jquery.svg";
-import mocha from "../../../static/images/mocha.svg";
-import next from "../../../static/images/next.svg";
-import nodejs from "../../../static/images/nodejs.svg";
-import postgresql from "../../../static/images/postgresql.svg";
-import rails from "../../../static/images/rails.svg";
-import react from "../../../static/images/react.svg";
-import ruby from "../../../static/images/ruby.svg";
-import sass from "../../../static/images/sass.svg";
-import storybook from "../../../static/images/storybook.svg";
-import webpack from "../../../static/images/webpack.svg";
+import bootstrap from "../../../static/svg_logos/bootstrap.svg";
+import chai from "../../../static/svg_logos/chai.svg";
+import circleCI from "../../../static/svg_logos/circleCI.svg";
+import css3 from "../../../static/svg_logos/css3.svg";
+import cypress from "../../../static/svg_logos/cypress.svg";
+import express from "../../../static/svg_logos/express.svg";
+import giticon from "../../../static/svg_logos/git-icon.svg";
+import html from "../../../static/svg_logos/html-5.svg";
+import javascript from "../../../static/svg_logos/javascript.svg";
+import jest from "../../../static/svg_logos/jest.svg";
+import jquery from "../../../static/svg_logos/jquery.svg";
+import mocha from "../../../static/svg_logos/mocha.svg";
+import next from "../../../static/svg_logos/next.svg";
+import nodejs from "../../../static/svg_logos/nodejs.svg";
+import postgresql from "../../../static/svg_logos/postgresql.svg";
+import rails from "../../../static/svg_logos/rails.svg";
+import react from "../../../static/svg_logos/react.svg";
+import ruby from "../../../static/svg_logos/ruby.svg";
+import sass from "../../../static/svg_logos/sass.svg";
+import storybook from "../../../static/svg_logos/storybook.svg";
+import webpack from "../../../static/svg_logos/webpack.svg";
 
 const data = {
-  languages: [javascript, html, scc3, ruby],
+  languages: [javascript, html, css3, ruby],
   frameworks: [
     react,
     next,

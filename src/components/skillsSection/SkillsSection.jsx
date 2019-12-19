@@ -1,20 +1,22 @@
 import React from "react";
 import useStyles from "./styles";
-import classnames from "classnames";
-import SkillsItem from "./skillsItem/SkillItem";
-import data from "./skillsItem/itemsData";
+import SkillItem from "./skillsItem/SkillItem";
+import data from './skillsItem/itemsData';
+
 
 const SkillsSection = () => {
   const classes = useStyles();
-  return (
-    <div className={classnames("col-xl-6 col-md-6", classes.col)}>
-      <div className={classes.project}>
-        <div className={classes.project_thumb}>
-          <img src={picture} alt='project 1' />
-        </div>
-      </div>
+  return <div id="skills" className={classes.container}>
+    <h4 className={classes.title}>Skills</h4>
+    <div>
+      {data.languages.map((picture) => 
+      <SkillItem picture={picture} />
+      )}
     </div>
-  );
+
+
+
+  </div>;
 };
 
 export default SkillsSection;
