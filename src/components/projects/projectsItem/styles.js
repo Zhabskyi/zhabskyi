@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     width: "100%",
     height: "100%",
     textAlign: "center",
-    background: "rgba(255, 255, 255, 0.8)",
+    background: "rgba(255, 255, 255, 0.9)",
     transform: "translateX(-50%)",
     transition: "0.5s",
     opacity: "0",
@@ -55,7 +55,7 @@ const useStyles = createUseStyles({
   },
   title: {
     position: "absolute",
-    top: "20%",
+    top: "15%",
     left: "0",
     right: "0",
     textAlign: "center"
@@ -69,7 +69,11 @@ const useStyles = createUseStyles({
   },
   text: {
     padding: "20px",
-    fontSize: "18px"
+    fontSize: "22px",
+    "@media (max-width: 576px)": {
+      fontSize: "18px",
+      padding:'10px'
+    },
   },
   link: {
     display: "inline-block",
