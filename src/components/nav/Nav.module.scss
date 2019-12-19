@@ -136,3 +136,27 @@
 		}
 	}
 }
+
+.btn {
+  width: 120px;
+	height: 50px;
+	border-radius: 6px;
+	background-color: #abc555;
+  font-family: 'Acme, sans-serif';
+	border: none;
+	outline: none;
+	cursor: pointer;
+	font: inherit;
+	padding: 10px;
+	margin: 10px;
+  font-weight: 300;
+  &:focus{
+    outline: 0;
+  }
+  & > a {
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+  }
+}

@@ -2,7 +2,6 @@ import React from "react";
 
 import classes from "./Nav.module.scss";
 
-import Button from "../button/Button";
 import MenuToggle from "../menuToggle/MenuToggle";
 import NavItems from "./nav-items/NavItems";
 import SideDrawer from "../sideDrawer/SideDrawer";
@@ -22,6 +21,8 @@ class Nav extends React.Component {
     });
   };
 
+  mail = () => {};
+
   render() {
     return (
       <>
@@ -32,11 +33,15 @@ class Nav extends React.Component {
             <NavItems />
           </div>
           <div className={classes.navbar__right}>
-            <Button
-              btnType='success'
-              title='Contact Me'
-              onClick={this.openSignUpModal}
-            />
+            <button className={classes.btn}>
+              <a
+                target='_blank'
+                rel='noopener noreferrer'
+                href='https://resume.creddle.io/resume/9v34tymy7gh'
+              >
+                Resume
+              </a>
+            </button>
           </div>
         </nav>
         <SideDrawer

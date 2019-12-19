@@ -16,7 +16,8 @@ title: {
   textAlign: 'center'
 },
 row: {
-  justifyContent: 'center'
+  justifyContent: 'center',
+  margin: '0'
 }
 
 
