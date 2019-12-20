@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/zhabskyi/static/css/main.7a9c74aa.chunk.css",
-    "main.js": "/zhabskyi/static/js/main.7ece959a.chunk.js",
-    "main.js.map": "/zhabskyi/static/js/main.7ece959a.chunk.js.map",
+    "main.js": "/zhabskyi/static/js/main.e9dddeb6.chunk.js",
+    "main.js.map": "/zhabskyi/static/js/main.e9dddeb6.chunk.js.map",
     "runtime-main.js": "/zhabskyi/static/js/runtime-main.ec7820d1.js",
     "runtime-main.js.map": "/zhabskyi/static/js/runtime-main.ec7820d1.js.map",
     "static/js/2.a6ea5b49.chunk.js": "/zhabskyi/static/js/2.a6ea5b49.chunk.js",
     "static/js/2.a6ea5b49.chunk.js.map": "/zhabskyi/static/js/2.a6ea5b49.chunk.js.map",
     "index.html": "/zhabskyi/index.html",
-    "precache-manifest.df0bb2b50c72f77149dfa787da715fe4.js": "/zhabskyi/precache-manifest.df0bb2b50c72f77149dfa787da715fe4.js",
+    "precache-manifest.8afe119999f3c6d813d51846a9bd81b8.js": "/zhabskyi/precache-manifest.8afe119999f3c6d813d51846a9bd81b8.js",
     "service-worker.js": "/zhabskyi/service-worker.js",
     "static/css/main.7a9c74aa.chunk.css.map": "/zhabskyi/static/css/main.7a9c74aa.chunk.css.map",
     "static/js/2.a6ea5b49.chunk.js.LICENSE": "/zhabskyi/static/js/2.a6ea5b49.chunk.js.LICENSE",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.ec7820d1.js",
     "static/js/2.a6ea5b49.chunk.js",
     "static/css/main.7a9c74aa.chunk.css",
-    "static/js/main.7ece959a.chunk.js"
+    "static/js/main.e9dddeb6.chunk.js"
   ]
 }
