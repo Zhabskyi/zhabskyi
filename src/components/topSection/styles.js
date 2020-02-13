@@ -8,7 +8,7 @@ container: {
   display: 'flex',
   flexDirection: 'column',
   position: 'relative',
-  height: '100vh',
+  height: 'auto',
   zIndex: 0,
   backgroundSize: 'cover',
   backgroundRepeat: 'no-repeat',
