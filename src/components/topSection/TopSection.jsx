@@ -1,6 +1,6 @@
 import React from "react";
 import useStyles from "./styles";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 import SocialIcons from "../socialIcons/SocialIcons";
 

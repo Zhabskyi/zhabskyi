@@ -3,7 +3,7 @@ import useStyles from "./styles";
 import classnames from "classnames";
 import SocialIcons from "../socialIcons/SocialIcons";
 import CopyRight from "../copyRight/CopyRight";
-import { Link, animateScroll as scroll } from "react-scroll";
+import { Link } from "react-scroll";
 
 const AboutSection = () => {
   const classes = useStyles();

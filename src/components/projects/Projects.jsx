@@ -13,6 +13,7 @@ const Projects = () => {
       <div className={classnames("row", classes.row)}>
         {data.map(({ title, description, github, website, picture }) => (
           <ProjectItems
+            key={title}
             title={title}
             description={description}
             github={github}

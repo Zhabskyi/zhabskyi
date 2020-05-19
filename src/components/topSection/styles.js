@@ -34,18 +34,18 @@ title: {
   fontFamily: 'Acme, sans-serif'
 },
 icons: {
-  margin: '300px 13% auto auto',
+  margin: '280px 13% auto auto',
   '@media (max-width: 768px)': {
     margin: '100px 13% auto auto'
   },
   '@media (min-width: 1200px)': {
-    margin: '300px 25% auto auto'
+    margin: '280px 25% auto auto'
   }
 },
 arrow: {
   position: 'absolute',
   left: '10px',
-  top: '64%',
+  top: '75%',
   width: '160px',
   height: '160px',
   backgroundImage: `url(${Background})`,
@@ -60,7 +60,7 @@ arrow: {
   },
   '@media (min-width: 1600px)': {
     left: '500px',
-    top: '60%',
+    top: '75%',
   }
 }
 
