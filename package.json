@@ -12,7 +12,7 @@
     "classnames": "^2.2.6",
     "devicon": "^2.2.0",
     "jss-plugin-nested": "^10.1.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-jss": "^10.1.1",
