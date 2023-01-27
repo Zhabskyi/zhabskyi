@@ -8,19 +8,15 @@ import { Link } from "react-scroll";
 const AboutSection = () => {
   const classes = useStyles();
   return (
-    <div id='about' className={classes.container}>
+    <div id="about" className={classes.container}>
       <h3 className={classes.title}>About me </h3>
       <div>
         <p className={classnames(classes.title, classes.text)}>
-          &emsp;&emsp;Full Stack Web Developer with experience in small web
-          production projects and over 10 years' experience in oil and gas
-          industry. With a Masters Degree in Petroleum Engineering, previous
-          experience as a Jr Web Developer as well as a Senior Engineer for 2+
-          years. Love back-end and front-end development! Eagerness to learn,
-          always driving to explore new technology and improve already known.
-          Motivated and energetic individual who likes to solve difficult
-          problems and resolve code bugs. Passionate about producing great user
-          experiences with customers first attitude.
+          &emsp;&emsp;Front-End Engineer with 3+ years in various front-end projects and progressive web applications. I
+          am passionate about developing great user experiences and solving non-trivial tasks and challenges. I have
+          strong technical acumen and the ability to tackle ambiguous problems. Develop progressive web applications
+          with React and TypeScript. Have expertise in building React Micro Frontend applications. Including testing and
+          best practices of continuous deployment.
         </p>
       </div>
       <div className={classes.footer}>
